@@ -1,0 +1,21 @@
+html {
+  box-sizing: border-box;
+  font-family: 'PT Sans', sans-serif;
+  line-height: 1.5;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img {
+  width: 2rem;
+}
