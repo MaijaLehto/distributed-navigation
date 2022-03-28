@@ -1,7 +1,8 @@
 html {
   box-sizing: border-box;
-  font-family: 'PT Sans', sans-serif;
+  font-family: sans-serif;
   line-height: 1.5;
+  background-color: #f2f2f2;
 }
 
 *,
@@ -14,9 +15,18 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #e2e2e2;
 }
 
 img {
   width: 2rem;
   margin: 0 0 1.5rem;
+}
+
+nav a,
+nav a:visited {
+  color: #0074d9;
+  text-decoration: none;
+  padding: .75rem 1em .6em;
+
 }
